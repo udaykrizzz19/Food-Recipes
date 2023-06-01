@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a912fa542d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find Meals for Your Ingerdients</h2>
+          <blockquote>Real food doesn`t have ingredinets,real food is ingredinets.<br>
+          <cite>Sivamani</cite></blockquote>
+          <div class="meal-search-box">
+            <input type="text" class="search-control" placeholder="Enter an Ingredient" id = "search-input">
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>                   
+        </div>
+        <div class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal">
+          </div>
+        </div>
+        <div class="meal-details">
+          <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="meal-details-content">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
